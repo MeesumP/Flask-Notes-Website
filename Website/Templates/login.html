@@ -1,4 +1,16 @@
-{% extends "base.html" %} {% block title%}Login{% endblock %}
-{% block content %}
-<h1>This is the login page</h1>
+{% extends "base.html" %} {% block title%}Login{% endblock %} {% block content
+%}
+<form method="POST">
+  <h3 align="center">Sign Up</h3>
+  <div class="form-group">
+    <label for="email">Email Adress</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      name="email"
+      placeholder="Enter email"
+    />
+  </div>
+</form>
 {% endblock %}

@@ -1,3 +1,4 @@
+from typing import Text
 from flask import Blueprint
 from flask.templating import render_template
 
